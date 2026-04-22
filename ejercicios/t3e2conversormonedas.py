@@ -12,10 +12,10 @@ def convertir_a_libras(cantidad_euros):
     cantidad_libras = cantidad_euros * cambio
     return cantidad_libras
 
-print("Introduce cantidad en euros:")
-cantidad_euros = cantidad_en_euros()
-print("dólares:", convertir_a_dolares(cantidad_euros))
-print("libras:", convertir_a_libras(cantidad_euros))
+def conversor():
+    print("Introduce cantidad en euros:")
+    cantidad_euros = cantidad_en_euros()
+    print("dólares:", convertir_a_dolares(cantidad_euros))
+    print("libras:", convertir_a_libras(cantidad_euros))
 
-
-
+conversor()

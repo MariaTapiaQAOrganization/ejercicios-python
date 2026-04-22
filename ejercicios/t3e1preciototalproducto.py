@@ -6,6 +6,7 @@ def datos_compra():
     Iva = float(input("IVA (%) : "))
     return nombre_producto, precio_unidad, cantidad, descuento, Iva
 
+
 def total_compra(precio_unidad,cantidad,descuento,Iva):
     precio_total = precio_unidad * cantidad
     descuento_total = precio_total * (descuento / 100)
@@ -15,5 +16,5 @@ def total_compra(precio_unidad,cantidad,descuento,Iva):
     return precio_final
 
 print("Introduce los datos de la compra:")
-nombre_producto, precio_unidad, cantidad, descuento, Iva = datos_compra()   
+nombre_producto, precio_unidad, cantidad, descuento, Iva = datos_compra()
 print("Total: ", total_compra(precio_unidad,cantidad,descuento,Iva))    

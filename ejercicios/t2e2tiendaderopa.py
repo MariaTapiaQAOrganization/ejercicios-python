@@ -17,7 +17,9 @@ total_gorras= cantidad_gorras * Gorra
 total_compra= total_camisetas + total_sudaderas + total_gorras
 
 print("Total de la compra:", total_compra,)
-total_compra_con_iva= total_compra * 1.21
+iva= total_compra * 0.21
+print("IVA: ", iva)
+total_compra_con_iva= total_compra + iva
 print("total con IVA:", total_compra_con_iva)
 
 
