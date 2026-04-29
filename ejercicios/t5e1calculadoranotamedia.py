@@ -24,7 +24,7 @@ def resultado_final():
     total = cantidad_notas()
     notas = solicitar_notas(total)
     media = calcular_media(notas)       
-    print("la nota media es:", media, "buen trabajo" if media >= 5 else "sigue estudiando")
+    print("la nota media es:", str(media), "buen trabajo" if media >= 5 else "sigue estudiando")
 
 resultado_final()
 

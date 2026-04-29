@@ -7,7 +7,7 @@ def numeroganador(numero):
         mensaje = "derrota, no has acertado..."
     elif numero > 4:
         mensaje = "derrota, no has acertado..."
-    if numero > 10:
+    if numero < 1 or numero > 10:
         mensaje = "mete un número del 1 al 10"
     return mensaje
 
